@@ -1,4 +1,6 @@
-(load "square.ss")
+#lang sicp
+
+(#%require "square.rkt")
 
 (define (good-enough? old-guess new-guess)
  (< 
