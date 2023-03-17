@@ -1,4 +1,3 @@
-#lang sicp
 (load "square.ss")
 
 (define (expt-iter b n a)
