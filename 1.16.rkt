@@ -1,5 +1,6 @@
 #lang sicp
-(load "square.ss")
+
+(#%require "square.rkt")
 
 (define (expt-iter b n a)
   (cond 

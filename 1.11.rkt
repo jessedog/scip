@@ -1,4 +1,6 @@
-(load ">=.ss")
+#lang sicp
+
+(define (>= x y) (not (< x y)))
 
 ; 递归计算过程
 (define (f1 n)

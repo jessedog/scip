@@ -1,3 +1,5 @@
+#lang sicp
+
 (define (>= a b)
   (or (> a b) (= a b)))
 (define (selectTwo a b c)
