@@ -9,4 +9,7 @@
 
 (define (>= x y) (not (< x y)))
 
+(define (average x y)
+  (/ (+ x y) 2))
+
 (provide (all-defined-out))
