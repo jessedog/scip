@@ -25,10 +25,7 @@
   (try first-guess 1)
 )
 
-(define (average-damp f)
-    (lambda (x)
-        (average x 
-                 (f x))))
+
 
 (define formula
   (lambda (x) (/ (log 1000) (log x))))
