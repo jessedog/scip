@@ -1,5 +1,5 @@
 #lang sicp
-(#%require "utils.rkt")
+(#%require "../utils.rkt")
 
 (define (compose f g)
   (lambda (x) (f (g x))))

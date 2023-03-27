@@ -1,6 +1,6 @@
 #lang sicp
 (#%require "p43-repeat.rkt")
-(#%require "utils.rkt")
+(#%require "../utils.rkt")
 
 (define dx 0.00001)
 

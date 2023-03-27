@@ -1,5 +1,5 @@
 #lang sicp
-(#%require "utils.rkt")
+(#%require "../utils.rkt")
 (#%require "p42-compose.rkt")
 
 (define (repeat f n)

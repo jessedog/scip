@@ -1,6 +1,6 @@
 #lang sicp
 (#%require "fixed-point.rkt")
-(#%require "utils.rkt")
+(#%require "../utils.rkt")
 
 (define dx 0.00001)
 

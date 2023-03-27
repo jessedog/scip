@@ -1,6 +1,6 @@
 #lang sicp
 (#%require racket/trace)
-(#%require "utils.rkt")
+(#%require "../utils.rkt")
 
 (define tolerance 0.00001)
 (define (display-info guess step)
