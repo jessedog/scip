@@ -1,9 +1,14 @@
-#lang sicp
+#lang racket
 (#%require "../utils.rkt")
 
 (define (make-rat n d) 
   (let ((g (gcd n d)))
-    (cons ( / n g) (/ d g))))
+    (let ((n1 (/ n g)) (d1 (/ d g)))
+      (if (< d1 0)
+        (cons (- n1) (- d1))
+        (cons n1 d1)
+      )
+    )))
 
 (define (numer x) (car x))
 
@@ -15,4 +20,4 @@
   (display "/")
   (display (denom x)))
 
-(#%provide all-defined-out)
+(provide (all-defined-out))
