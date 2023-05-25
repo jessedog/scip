@@ -1,0 +1,1 @@
+("8.8" ta6nt ("a4d31dde6c958f727a7dfc7cc999a1b64e69bb5a" . "bf6b81772e19a17e90638c1ba60aec996b04d580") (collects #"drracket" #"private" #"drracket-errortrace-key.rkt") (collects #"sicp" #"lang" #"reader.rkt") (collects #"sicp" #"main.rkt"))

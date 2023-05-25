@@ -34,19 +34,26 @@
 ; p17
 (define (last-pair items)
   (if (null? items)
-      nil
+      '()
       (list-ref items (- (length items) 1))))
 
 ; p18
-(define (reverse items)
-  (define (reverse-iter a res)
-    (if (null? a)
-        res
-        (reverse-iter (cdr a) (cons (car a) res))))
-  (reverse-iter items '()))
+(define (reverse lst)
+    (iter lst '()))
+
+(define (iter remained-items result)
+    (if (null? remained-items)
+        result
+        (iter (cdr remained-items)
+              (cons (car remained-items) result))))
+
+(#%provide reverse last-pair
+           list-ref length
+           append print-list)
 
 (define list1 (list 1 2 3 4))
 (define list2 (list 5 6 7))
+(reverse (list 7 5 3 1))
 ; (display (car (cons 1 2)))
 ; (newline)
 ; (length list1)
@@ -54,4 +61,4 @@
 ; (print-list (append list1 list2))
 ; (display (last-pair list1))
 ; (print-list (reverse (append list1 list2)))
-(list-ref (reverse list1) 0)
+; (list-ref (reverse list1) 0)
