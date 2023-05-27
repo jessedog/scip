@@ -1,5 +1,6 @@
 #lang sicp
 (#%require "p7.rkt")
+(require racket/trace)
 
 (define (percent n p) (* n (/ p 100.0)))
 
