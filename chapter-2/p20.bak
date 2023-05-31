@@ -1,0 +1,17 @@
+#lang sicp
+(#%require "list-base.rkt")
+
+(define (same-parity a . nums)
+  (define parity (remainder a 2))
+  (define (iter items res)
+    (display (car items))
+    (if (null? items)
+        res
+        (if (= (remainder (car items) 2) parity)
+            (iter (cdr items) (cons res (car items)))
+            (iter (cdr items) res)))
+    )
+  (iter nums (list a))
+  )
+
+(same-parity 1 2 3 4 5 6 7)
