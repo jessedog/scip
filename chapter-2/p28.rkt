@@ -14,4 +14,3 @@
   (iter items))
 
 (fringe x)
-;(car (car x))

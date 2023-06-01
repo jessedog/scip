@@ -1,1 +1,0 @@
-("8.8" ta6osx ("4c845fd0919664db8915a31486ebfbeb67c4df79" . "84ca12f5a7090a1cb68b9b36f0a6a7fec825d6fc") #"/Users/jesse/Documents/GitHub/sicp/chapter-2/../utils.rkt" (collects #"drracket" #"private" #"drracket-errortrace-key.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt"))
