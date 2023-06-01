@@ -1,0 +1,1 @@
+("8.8" ta6osx ("7442300951de913c71a8922530e666caa476fc89" . "b9ca84f54139f0390b64b0cb783c64c46150abb6") (collects #"drracket" #"private" #"drracket-errortrace-key.rkt") (collects #"sicp" #"lang" #"reader.rkt") (collects #"sicp" #"main.rkt"))
